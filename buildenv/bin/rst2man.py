@@ -1,6 +1,6 @@
-#!/Users/reetututeja/Documents/tutorials/chipseq_tutorial/buildenv/bin/python3.7
+#!/Users/reetututeja/Documents/tutorials/genome_annotation_quality/buildenv/bin/python3
 
-# Author:
+# Author: 
 # Contact: grubert@users.sf.net
 # Copyright: This module has been placed in the public domain.
 

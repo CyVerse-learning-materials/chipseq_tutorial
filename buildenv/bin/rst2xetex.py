@@ -1,4 +1,4 @@
-#!/Users/reetututeja/Documents/tutorials/chipseq_tutorial/buildenv/bin/python3.7
+#!/Users/reetututeja/Documents/tutorials/genome_annotation_quality/buildenv/bin/python3
 
 # $Id: rst2xetex.py 7847 2015-03-17 17:30:47Z milde $
 # Author: Guenter Milde

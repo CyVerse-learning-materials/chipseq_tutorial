@@ -5,20 +5,17 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**TUTORIAL NAME**
+**ChIP-seq Tutorial**
 =================
 
-..
-    #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
-    sharing data ####
+This tutorial introduces the basic principles of analyzing chromatin immunoprecipitation sequencing (ChIP-seq) data. This documentation is intended to provide enough information to allow a biologist to perform key steps of ChIP-seq analysis: quality control of data, mapping data to a reference genome and peak calling. CyVerse Discovery Environment (DE) public apps will be used to run analysis on a sample dataset.
 
-Goal
-----
+Learning Objectives
+--------------------
 
-..
-    #### Comment: Avoid covering upstream and downstream steps that are not explicitly and
-    necessarily part of the tutorial - write or link to separate quick
-    starts/tutorials for those parts ####
+Understand the nature of ChIP-seq data
+Efficiently manage and analyze ChIP-seq data
+How to do quality assessment using R ChIPQC package
 
 ----
 
@@ -26,12 +23,12 @@ Goal
 	:maxdepth: 2
 
 	Tutorial home <self>
-	Step One <step1.rst>
-	Delete this example guide page <example_directives_delete.rst>
-..
-	#### Comment:This tutorial can have multiple pages. The table of contents assumes
-	you have an additional page called 'Step One' with content located in 'step1.rst'
-	Edit these titles and filenames as needed ####
+	Sample dataset <step1.rst>
+	Preprocessing <step2.rst>
+  Mapping <step3.rst>
+  Peak calling <step4.rst>
+  Quality assessment <step5.rst>
+  Further reading <step6.rst>
 
 
 Prerequisites
@@ -53,9 +50,6 @@ Downloads, access, and services
       - Link/Download
     * - CyVerse account
       - You will need a CyVerse account to complete this exercise
-      - |CyVerse User Portal|
-    * - Atmosphere access
-      - You must have access to Atmosphere
       - |CyVerse User Portal|
     * - Cyberduck
       - Standalone software for upload/download to Data Store
@@ -87,32 +81,7 @@ Platform(s)
       - |Discovery Environment|
       - |DE Manual|
       - |Discovery Environment Guide|
-    * - Atmosphere
-      - Command line (ssh) and/or Desktop (VNC)
-      - |Atmosphere|
-      - |Atmosphere Manual|
-      - |Atmosphere Guide|
-    * - BisQue
-      - Web/Point-and-click and/or Command-line (API)
-      - |BisQue|
-      - |BisQue Manual|
-      - (See Manual)
-    * - DNA Subway
-      - Web/Point-and-click
-      - |DNA Subway|
-      - (See Guide)
-      - |DNA Subway Guide|
-    * - SciApps
-      - Command-line (API)
-      - |SciApps|
-      - (See Guide)
-      - |SciApps Guide|
-    * - Agave API
-      - Command-line (API)
-      - |Agave API|
-      - |Agave Live Docs|
-      - (See Live Docs)
-
+    
 Application(s) used
 ~~~~~~~~~~~~~~~~~~~
 ..

@@ -1,4 +1,4 @@
-#!/Users/reetututeja/Documents/tutorials/chipseq_tutorial/buildenv/bin/python3.7
+#!/Users/reetututeja/Documents/tutorials/genome_annotation_quality/buildenv/bin/python3
 
 # $Id: rst2s5.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: Chris Liechti <cliechti@gmx.net>
