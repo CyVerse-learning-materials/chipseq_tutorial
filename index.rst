@@ -8,14 +8,16 @@
 **ChIP-seq Tutorial**
 =================
 
-This tutorial introduces the basic principles of analyzing chromatin immunoprecipitation sequencing (ChIP-seq) data. This documentation is intended to provide enough information to allow a biologist to perform key steps of ChIP-seq analysis: quality control of data, mapping data to a reference genome and peak calling. CyVerse Discovery Environment (DE) public apps will be used to run analysis on a sample dataset.
+This tutorial introduces the basic principles of analyzing chromatin immunoprecipitation sequencing (ChIP-seq) data. This documentation is intended to provide enough information to allow a biologist perform key steps of ChIP-seq analysis: quality control of data, mapping data to a reference genome and peak calling. CyVerse Discovery Environment (DE) public apps will be used to run analysis on a sample dataset.
 
 Learning Objectives
 --------------------
 
-Understand the nature of ChIP-seq data
-Efficiently manage and analyze ChIP-seq data
-How to do quality assessment using R ChIPQC package
+- Understand the nature of ChIP-seq data
+
+- Efficiently manage and analyze ChIP-seq data
+
+- How to do quality assessment using R ChIPQC package
 
 ----
 
@@ -25,9 +27,9 @@ How to do quality assessment using R ChIPQC package
 	Tutorial home <self>
 	Sample dataset <step1.rst>
 	Preprocessing <step2.rst>
-  Mapping <step3.rst>
+  Read mapping <step3.rst>
   Peak calling <step4.rst>
-  Quality assessment <step5.rst>
+  Postprocessing- ChIP quality assessment <step5.rst>
   Further reading <step6.rst>
 
 
