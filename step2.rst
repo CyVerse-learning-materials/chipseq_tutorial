@@ -93,7 +93,7 @@ Best practice is to remove duplicates prior to peak calling. MACS2 default is to
 
 We will be using ecoli_peaks.narrowPeak output file for further analysis. For more information on MACS2 parameters and output files, check the github read me for MACS2 https://github.com/taoliu/MACS.
 
-Narrowpeak output file format (BED6+4 format):
+Brief description of narrowpeak output file format (BED6+4 format):
 
 Col1- name of the chromosome
 
@@ -115,7 +115,11 @@ Col9- log10.qvalue
 
 Col10- peak
 
-For more information about BED format, check here https://genome.ucsc.edu/FAQ/FAQformat.html#format12
+For more information about BED format, check |bed_here| 
+
+.. Note::
+
+  MACS2 mfold parameter specifies an interval of high-confidence enrichment ratio against the background on which to build the model. The default value 10, 30 means that a model will be built on the basis of regions having read counts that are 10- to 30-fold of the background. Check the effect of changing mfold range to 5,30 on number of resulting peaks.
 
 ----
 
@@ -170,3 +174,7 @@ Search for an answer:
     :width: 300
     :height: 150
 .. _macs2_app_icon: http://learning.cyverse.org/ <a href="https://de.cyverse.org/de/" target="_blank">macs2_app_icon</a>
+
+.. |bed_here| raw:: html
+
+    <a href="https://genome.ucsc.edu/FAQ/FAQformat.html#format12" target="_blank">here</a>

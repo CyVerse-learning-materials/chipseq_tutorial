@@ -9,7 +9,7 @@
 **Read mapping**
 ------------------
 
-We will next align our reads to the E. coli reference genome. Any standard short-read alignment program such as BWA, Bowtie can be used for this step. We will use Bowtie 1 for aligning our reads. For short reads (< 50bp), Bowtie 1 is faster and sensitive than Bowtie2.
+In this step, we will align our reads to the E. coli reference genome. Any standard short-read alignment program such as BWA, Bowtie can be used for this step. We will use Bowtie 1 for aligning our reads. For short reads (< 50bp), Bowtie 1 is faster and sensitive than Bowtie2.
 
 ----
 
