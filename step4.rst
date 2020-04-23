@@ -7,12 +7,9 @@
 
 
 **Postprocessing- ChIP quality assessment**
-----------------------------------------
+--------------------------------------------
 
-**Description:**
-
-..
-	#### Comment: short text description goes here ####
+The quality of a ChIP experiment largely depends on the specificity of the antibody and the degree of enrichment achieved in the affinity precipitation step. In this section, we will use ChIPQC R package to calculate cross-correlation and FrIP score to assess quality of your ChIP. FRiP stands for Fraction of Reads in Peaks. As per ENCODE guidelines, FRiP% values around 5% or higher generally reflect successful enrichment (Landt et al, 2012).
 
 ----
 
@@ -27,10 +24,11 @@
     * -
       -
       -
+    * - 
+      - 
+      -
 
-*Descriptive Steps*
-
-.. 	#### Comment: Step title should be descriptive (i.e. Cleaning Read data) ###
+**Run Rstudio-chipqc app in CyVerse DE**
 
 
 1.

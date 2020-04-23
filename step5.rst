@@ -19,11 +19,7 @@ Zhang, Y., Liu, T., Meyer, C.A. et al. Model-based Analysis of ChIP-Seq (MACS). 
 
 Carroll TS, Liang Z, Salama R, Stark R and Santiago Id (2014). “Impact of artefact removal on ChIP quality metrics in ChIP-seq and ChIP-exo data.” Frontiers in Genetics 10, 5:75.
 
-Ma, W., Noble, W. & Bailey, T. Motif-based analysis of large nucleotide data sets using MEME-ChIP. Nat Protoc 9, 1428–1450 (2014)
-
-|hbc|
-
-|vib|
+Ma, W., Noble, W. & Bailey, T. Motif-based analysis of large nucleotide data sets using MEME-ChIP. Nat Protoc 9, 1428–1450 (2014).
 
 ----
 
