@@ -22,7 +22,7 @@ We are analyzing Fumarate and nitrate reduction (FNR) transcription factor datas
       - Description
       - Location
     * - FNR transcription factor data 
-      - FNR IP ChIP-seq and INPUT DNA in anaerobic condition
+      - FNR IP and Input DNA in anaerobic condition
       - iplantcollaborative > example_data > chipseq_webinar -> fastqfiles
 
 **Preprocessing**

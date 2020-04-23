@@ -9,65 +9,21 @@
 **Further reading**
 ------------------
 
-**Description:**
+Wasserman, W., Sandelin, A. Applied bioinformatics for the identification of regulatory elements. Nat Rev Genet 5, 276–287 (2004). 
 
-..
-	#### Comment: short text description goes here ####
+Park, P. ChIP–seq: advantages and challenges of a maturing technology. Nat Rev Genet 10, 669–680 (2009). 
 
-----
+Bailey T, Krajewski P, Ladunga I, Lefebvre C, Li Q, et al. (2013) Practical Guidelines for the Comprehensive Analysis of ChIP-seq Data. PLOS Computational Biology 9(11): e1003326. 
 
-**Input Data:**
+Zhang, Y., Liu, T., Meyer, C.A. et al. Model-based Analysis of ChIP-Seq (MACS). Genome Biol 9, R137 (2008).
 
-.. list-table::
-    :header-rows: 1
+Carroll TS, Liang Z, Salama R, Stark R and Santiago Id (2014). “Impact of artefact removal on ChIP quality metrics in ChIP-seq and ChIP-exo data.” Frontiers in Genetics 10, 5:75.
 
-    * - Input
-      - Description
-      - Example
-    * -
-      -
-      -
+Ma, W., Noble, W. & Bailey, T. Motif-based analysis of large nucleotide data sets using MEME-ChIP. Nat Protoc 9, 1428–1450 (2014)
 
-*Descriptive Steps*
+|hbc|
 
-.. 	#### Comment: Step title should be descriptive (i.e. Cleaning Read data) ###
-
-
-1.
-
-2.
-
-3.
-
-
-
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
-
-**Output/Results**
-
-.. list-table::
-    :header-rows: 1
-
-    * - Output
-      - Description
-      - Example
-    * -
-      -
-      -
-
-
-----
-
-**Description of output and results**
-
+|vib|
 
 ----
 
@@ -113,3 +69,11 @@ Search for an answer:
 .. |Github Repo Link|  raw:: html
 
    <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+
+.. |vib| raw:: html
+
+    <a href="https://github.com/hbctraining/In-depth-NGS-Data-Analysis-Course" target="_blank">VIB training course</a>
+
+.. |hbc| raw:: html
+
+    <a href="https://github.com/hbctraining/In-depth-NGS-Data-Analysis-Course" target="_blank">HBC training course</a>
