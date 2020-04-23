@@ -6,15 +6,12 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Name
--------------
+**Sample dataset and preprocessing**
+----------------------------------------
 
-**Description:**
+We are analyzing Fumarate and nitrate reduction (FNR) transcription factor dataset in this tutorial (Myers et al., 2013). FNR transcription factor controls the expression of over 100 target genes in response to anoxia. It facilitates the adaptation to anaerobic growth conditions by regulating the expression of gene products that are involved in anaerobic energy metabolism. We will use the FNR IP ChIP-seq Anaerobic A (GSM1010219) dataset and compare this with the input (GSM1010224).
 
-..
-	#### Comment: short text description goes here ####
-
-----
+----------------------------------------
 
 **Input Data:**
 
@@ -23,33 +20,34 @@ Section Name
 
     * - Input
       - Description
-      - Example
-    * -
-      -
-      -
+      - Location
+    * - FNR transcription factor data 
+      - FNR IP ChIP-seq and INPUT DNA in anaerobic condition
+      - iplantcollaborative > example_data > chipseq_webinar -> fastqfiles
 
-**Descriptive Steps**
+**Preprocessing**
 
-.. 	#### Comment: Step title should be descriptive (i.e. Cleaning Read data) ###
+*Evaluate the quality of your sequencing data using FastQC*
+
+Preprocessing of ChIP-seq data is similar to that of any other sequencing data and will assess the quality of the raw reads to identify possible sequencing errors or biases. FastQC can be used for an overview of the data quality but this does not assess if your ChIP experiment has worked. We will assess that in Step4- Postprocessing- ChIP quality assessment.
+
+1. Login to the |discovery_enviornment|.
+
+2. CLick on "Apps" tab in the Discovery Environment and search for "fastqc".
+
+3. Click on the app icon.
+
+|fastqc_app_icon|_
+
+4. Change the name of the analysis and output folder as needed or leave for defaults.
+
+5. Under "Input" leave the default database or browse through the datastore and change the path to a custom database. Change the number of CPUs as per requirement. For next section "Resource Requirements" request resources as needed or leave for defaults 
+
+7. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running. Click on 'Access your analysis here' link.
+
+8. Once the analysis is launched, you will see the SequenceServer user interface. Input your query sequences and click Blast.
 
 
-1.
-
-2.
-
-3.
-
-
-
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
 
 **Output/Results**
 
@@ -113,3 +111,12 @@ Search for an answer:
 .. |Github Repo Link|  raw:: html
 
    <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+
+.. |discovery_enviornment| raw:: html
+
+    <a href="https://de.cyverse.org/de/" target="_blank">Discovery Environment</a>
+
+.. |fastqc_app_icon| image:: ./img/fastqc.png
+    :width: 300
+    :height: 150
+.. _fastqc_app_icon: http://learning.cyverse.org/ <a href="https://de.cyverse.org/de/" target="_blank">fastqc_app_icon</a>

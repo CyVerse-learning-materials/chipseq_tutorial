@@ -6,13 +6,10 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Name
--------------
+**Read mapping**
+------------------
 
-**Description:**
-
-..
-	#### Comment: short text description goes here ####
+Any standard mapping program such as BWA, Bowtie can be used for this step. We will use Bowtie 1. For short reads (< 50bp), Bowtie 1 is faster and sensitive than Bowtie2.
 
 ----
 
@@ -37,19 +34,15 @@ Section Name
 
 2.
 
-3.
+**Sequencing depth**
 
+Effective analysis of ChIP-seq data requires sufficient coverage by sequence reads (sequencing depth). The required depth depends mainly on the size of the genome and the number and size of the binding sites of the protein. ENCODE’s guidelines is to obtain minimum 10 million uniquely mapping reads per replicate experiment for mammalian genomes (Landt et al, 2009). 
 
+.. note::
 
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
+  Excercise 2
+  
+  If atleast 10 million uniquely mapping reads are required for human genome. How many minimum reads are required for E. coli dataset to have sufficent coverage for further analysis?
 
 **Output/Results**
 

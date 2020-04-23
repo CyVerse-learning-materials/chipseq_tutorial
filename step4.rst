@@ -6,8 +6,8 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Name
--------------
+**Postprocessing- ChIP quality assessment**
+----------------------------------------
 
 **Description:**
 
