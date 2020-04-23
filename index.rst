@@ -15,7 +15,7 @@ Learning Objectives
 
 - Efficiently manage and analyze ChIP-seq data
 
-- How to do quality assessment using R ChIPQC package
+- How to do quality assessment using ChIPQC R package
 
 - Using CyVerse Discovery Environment apps to do ChIP-seq analysis
 

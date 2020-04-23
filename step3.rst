@@ -25,7 +25,7 @@ We will next align our reads to the E. coli reference genome. Any standard short
       - Raw or quality filtered reads 
       - iplantcollaborative > example_data > chipseq_webinar -> fastqfiles
 
-****Run Bowtie 1 in the CyVerse Discovery Environment****
+**Run Bowtie1 in the CyVerse Discovery Environment**
 
 1. Click on "Apps" tab in the Discovery Environment and search for "bowtie".
 
@@ -68,6 +68,8 @@ Effective analysis of ChIP-seq data requires sufficient coverage by sequence rea
 
 **Description of output and results**
 
+
+Bowtie build and map app by default provides output files in SAM format which stands for  Sequence Alignment/Map format. For more details on SAM format |bowtie_out|
 
 ----
 
@@ -118,3 +120,7 @@ Search for an answer:
     :width: 300
     :height: 150
 .. _bowtie1_app_icon: http://learning.cyverse.org/ <a href="https://de.cyverse.org/de/" target="_blank">bowtie1_app_icon</a>
+
+.. |bowtie_out| raw:: html
+
+    <a href="http://bowtie-bio.sourceforge.net/manual.shtml#sam-bowtie-output" target="_blank">Read here</a>
