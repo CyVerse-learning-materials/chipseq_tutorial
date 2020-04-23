@@ -9,7 +9,7 @@
 **Read mapping**
 ------------------
 
-Any standard mapping program such as BWA, Bowtie can be used for this step. We will use Bowtie 1. For short reads (< 50bp), Bowtie 1 is faster and sensitive than Bowtie2.
+We will next align our reads to the E. coli reference genome. Any standard short-read alignment program such as BWA, Bowtie can be used for this step. We will use Bowtie 1 for aligning our reads. For short reads (< 50bp), Bowtie 1 is faster and sensitive than Bowtie2.
 
 ----
 
@@ -20,19 +20,28 @@ Any standard mapping program such as BWA, Bowtie can be used for this step. We w
 
     * - Input
       - Description
-      - Example
-    * -
-      -
-      -
+      - Location
+    * - Sequence reads
+      - Raw or quality filtered reads 
+      - iplantcollaborative > example_data > chipseq_webinar -> fastqfiles
 
-*Descriptive Steps*
+****Run Bowtie 1 in the CyVerse Discovery Environment****
 
-.. 	#### Comment: Step title should be descriptive (i.e. Cleaning Read data) ###
+1. Click on "Apps" tab in the Discovery Environment and search for "bowtie".
 
+2. Click on the app icon. Bowtie build and map app builds a bowtie index and then maps reads.
 
-1.
+|bowtie1_app_icon|_
 
-2.
+3. Change the name of the analysis and output folder as needed or leave for defaults.
+
+4. Under bowtie build Input section provide Reference genome file in Fasta format. Browse through the datastore and provide GCF_000005845.2_ASM584v2_genomic.fna Ecoli reference genome. This file is provided with the sample dataset- iplantcollaborative > example_data > chipseq_webinar -> ecoli_refgenome.
+
+5. Under bowtie build Output section provide name of the basename for index 'ecoli'. Under bowtie map- reference inputs section provide the same name for the index base name 'ecoli'.
+
+6. Under bowtie map read Input section provide the ChIP sequence reads file SRR576933_IP.fastq. Input data location- iplantcollaborative > example_data > chipseq_webinar -> fastqfiles.
+
+7. Provide an output file name and click on the Analyses to check the status of your job. When the analysis completes, click on the right three dots menu and click on 'Go to output folder' to access you output files. Repeat the same steps for control dataset SRR576933_control.fastq
 
 **Sequencing depth**
 
@@ -40,8 +49,6 @@ Effective analysis of ChIP-seq data requires sufficient coverage by sequence rea
 
 .. note::
 
-  Excercise 2
-  
   If atleast 10 million uniquely mapping reads are required for human genome. How many minimum reads are required for E. coli dataset to have sufficent coverage for further analysis?
 
 **Output/Results**
@@ -52,9 +59,9 @@ Effective analysis of ChIP-seq data requires sufficient coverage by sequence rea
     * - Output
       - Description
       - Example
-    * -
-      -
-      -
+    * - Alignment files
+      - Alignment files in SAM format
+      - bowtieout_control.sam
 
 
 ----
@@ -106,3 +113,8 @@ Search for an answer:
 .. |Github Repo Link|  raw:: html
 
    <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+
+.. |bowtie1_app_icon| image:: ./img/bowtie1.png
+    :width: 300
+    :height: 150
+.. _bowtie1_app_icon: http://learning.cyverse.org/ <a href="https://de.cyverse.org/de/" target="_blank">bowtie1_app_icon</a>

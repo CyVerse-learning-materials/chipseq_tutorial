@@ -8,7 +8,7 @@
 **Introduction**
 =================
 
-This tutorial introduces the basic principles of analyzing chromatin immunoprecipitation sequencing (ChIP-seq) data. This documentation is intended to provide enough information to allow a biologist perform key steps of ChIP-seq analysis: quality control of data, mapping data to a reference genome and peak calling. CyVerse Discovery Environment (DE) public apps will be used to run analysis on a sample dataset.
+This tutorial introduces the basic principles of analyzing chromatin immunoprecipitation sequencing (ChIP-seq) data and is intended to provide enough information to perform key steps of ChIP-seq analysis: quality control of data, mapping data to a reference genome and peak calling. We will be using Cyverse discovery environment public apps for analysis of a sample set. Command-line expertise is not required to follow most of this tutorial.
 
 Learning Objectives
 --------------------

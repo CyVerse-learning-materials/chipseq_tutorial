@@ -9,7 +9,7 @@
 **Sample dataset and preprocessing**
 ----------------------------------------
 
-We are analyzing Fumarate and nitrate reduction (FNR) transcription factor dataset in this tutorial (Myers et al., 2013). FNR transcription factor controls the expression of over 100 target genes in response to anoxia. It facilitates the adaptation to anaerobic growth conditions by regulating the expression of gene products that are involved in anaerobic energy metabolism. We will use the FNR IP ChIP-seq Anaerobic A (GSM1010219) dataset and compare this with the input (GSM1010224).
+We are analyzing Fumarate and nitrate reduction (FNR) transcription factor dataset in this tutorial (Myers et al., 2013). FNR transcription factor controls the expression of over 100 target genes in response to anoxia. It facilitates the adaptation to anaerobic growth conditions by regulating the expression of gene products that are involved in anaerobic energy metabolism. We will use the FNR IP ChIP-seq Anaerobic A (GSM1010219) dataset and compare this with the control sample (GSM1010224).
 
 ----------------------------------------
 
@@ -41,12 +41,11 @@ Preprocessing of ChIP-seq data is similar to that of any other sequencing data a
 
 4. Change the name of the analysis and output folder as needed or leave for defaults.
 
-5. Under "Input" leave the default database or browse through the datastore and change the path to a custom database. Change the number of CPUs as per requirement. For next section "Resource Requirements" request resources as needed or leave for defaults 
+5. Under "Input" click on Add to provide input files for both ChIP and input dataset. Sample dataset location iplantcollaborative > example_data > chipseq_webinar -> fastqfiles. Check both files (SRR576933_IP.fastq, SRR576938_input.fastq) and click 'OK'. 
 
-7. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running. Click on 'Access your analysis here' link.
+6. For next section "Resource Requirements" request resources as needed or leave for defaults 
 
-8. Once the analysis is launched, you will see the SequenceServer user interface. Input your query sequences and click Blast.
-
+7. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running. Click on the Analyses tab to check the status of your job. When the analysis completes, click on the right three dots menu and click on 'Go to output folder' to access you output files.
 
 
 **Output/Results**
@@ -57,15 +56,19 @@ Preprocessing of ChIP-seq data is similar to that of any other sequencing data a
     * - Output
       - Description
       - Example
-    * -
-      -
-      -
-
+    * - html and zip files
+      - FastqQC report
+      - SRR576933_IP_fastqc.html
 
 ----
 
 **Description of output and results**
 
+Click on the html report files and check if your sequencing data has any red flags that you should be aware of. There are few red flags in the report. You will notice that "Per base sequence quality" decrease towards the end of the reads which is usual with illumina sequencing. Other useful metrices that should be checked for ChIP-seq data are: sequence duplication levels and over-represented sequences. 
+
+As this report does not present any major concerns regarding the quality of this dataset, we will proceed with the next step i.e, reads alignment. However, for your own data, it is a good pratice to rerun fastqc after quality filtering your reads: remove adapter sequences and low-quality bases (Phred quality score< 20 indicates error rate >1%) and discard any short reads after trimming (<20bp reads). Check |trim_app| in CyVerse DE which can be used to trim and crop Illumina (FASTQ) data as well as to remove adapters.
+
+For more details on each module of the fastqc report, check |fastqc_doc| 
 
 ----
 
@@ -120,3 +123,13 @@ Search for an answer:
     :width: 300
     :height: 150
 .. _fastqc_app_icon: http://learning.cyverse.org/ <a href="https://de.cyverse.org/de/" target="_blank">fastqc_app_icon</a>
+
+.. |trim_app| raw:: html
+
+    <a href="https://de.cyverse.org/de/?type=apps&app-id=92578d70-54b0-11e9-ae6e-008cfa5ae621&system-id=de" target="_blank">Trimmomatic app</a>
+
+
+.. |fastqc_doc| raw:: html
+
+    <a href="https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/" target="_blank">FastQC documentation</a>
+

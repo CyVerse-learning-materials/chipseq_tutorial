@@ -9,7 +9,7 @@
 **Peak calling**
 ------------------
 
-We will be using MACS2 (Model-based Analysis for ChIP-seq) app in CyVerse DE for peak identification.
+In this step, we will use bowtie alignment files to perform peak calling. Peak calling programs identify set of read enriched regions in the genome that represent binding sites from your protein of interest. We will be using MACS2 (Model-based Analysis for ChIP-seq) app in CyVerse DE for peak identification.
 
 ----
 
@@ -27,25 +27,23 @@ We will be using MACS2 (Model-based Analysis for ChIP-seq) app in CyVerse DE for
 
 **Run MACS2 in the CyVerse Discovery Environment**
 
-1. Login to the |discovery_enviornment|.
+1. Click on "Apps" tab in the Discovery Environment and search for "macs2".
 
-2. CLick on "Apps" tab in the Discovery Environment and search for "macs2".
-
-3. Click on the app icon.
+2. Click on the app icon.
 
 |macs2_app_icon|_
 
-4. Change the name of the analysis and output folder as needed or leave for defaults.
+3. Change the name of the analysis and output folder as needed or leave for defaults.
 
-5. Under Callpeaks input section, browse the treatment and control files from the datastore. Provide experiment name 'ecoli'.
+4. Under Callpeaks input section, browse the treatment and control files from the datastore. Provide experiment name 'ecoli'.
 
     Example treatment file- iplantcollaborative > example_data > chipseq_webinar -> bowtie_output -> bowtieout_chipIP.sam
 
     Example control file- iplantcollaborative > example_data > chipseq_webinar -> bowtie_output -> bowtieout_input.sam
 
-6. Provide mappable genome size- 'gsize 4.6e6' for E. coli genome. Leave the rest of the parameters to defaults. For next section "Resource Requirements" request resources as needed or leave for defaults. Click on Launch Analysis.
+5. Provide mappable genome size- 'gsize 4639675' for E. coli genome. Leave the rest of the parameters to defaults. For next section "Resource Requirements" request resources as needed or leave for defaults. Click on Launch Analysis.
 
-7. Click on the Analyses to check the status of your job. When the analysis completes, click on the right three dots menu and click on 'Go to output folder' to access you output files.
+6. Click on the Analyses to check the status of your job. When the analysis completes, click on the right three dots menu and click on 'Go to output folder' to access you output files.
 
 
 **Should you discard duplicate reads before peak identification?**
