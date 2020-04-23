@@ -38,9 +38,7 @@ Step-by-step Tutorial:
 
 .. Note::
 
-  Acknowledgments
-
-  Thanks to VIB and Harvard Chan Bioinformatics training for putting together wonderful teaching material for ChIP-seq.
+  Acknowledgments: Thanks to VIB and Harvard Chan Bioinformatics training for putting together wonderful teaching material for ChIP-seq.
 
 Prerequisites
 -------------
