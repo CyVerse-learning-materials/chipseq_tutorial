@@ -52,9 +52,9 @@ The quality of a ChIP experiment largely depends on the specificity of the antib
 .. code::
 
   library(ChIPQC)
-  exampleExp <- ChIPQCsample(bamFiles,peaks=mypeaks)
-
+  
   mypeaks <- read.delim("ecoli_peaks.narrowPeak", header=F)
+  exampleExp <- ChIPQCsample(bamFiles,peaks=mypeaks)
 
   QCmetrics(exampleExp)
   plotFrip(exampleExp)
