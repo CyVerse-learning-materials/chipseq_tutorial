@@ -216,7 +216,7 @@ Search for an answer:
 
 .. |DE Application URL2|  raw:: html
 
-   <a href="https://de.cyverse.org/de/?type=apps&app-id=dbd0de10-97da-11e6-8f91-008cfa5ae621&system-id=de" target="blank">DE Application URL</a>
+   <a href="https://de.cyverse.org/de/?type=apps&app-id=4bde65c8-7dac-11ea-ac57-008cfa5ae621&system-id=de" target="blank">DE Application URL</a>
 
 .. |Original App Documentation2|  raw:: html
 
@@ -224,7 +224,7 @@ Search for an answer:
 
 .. |DE Application URL3|  raw:: html
 
-   <a href="https://de.cyverse.org/de/?type=apps&app-id=dbd0de10-97da-11e6-8f91-008cfa5ae621&system-id=de" target="blank">DE Application URL</a>
+   <a href="https://de.cyverse.org/de/?type=apps&app-id=bdcfa09a-7e72-11ea-9807-008cfa5ae621&system-id=de" target="blank">DE Application URL</a>
 
 .. |Original App Documentation3|  raw:: html
 
