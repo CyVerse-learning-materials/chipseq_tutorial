@@ -61,6 +61,10 @@ The quality of a ChIP experiment largely depends on the specificity of the antib
   frip(exampleExp)
   plotCC(exampleExp)
 
+.. Note::
+
+  ChIPQC package accepts sorted BAM files as input. A sorted BAM file is a compressed binary version of a SAM file that has reads sorted by coordinates. Reads from the beginning of the first chromosome are found first in the coordinate sorted alignment file. You can use Samtools SAM to sorted BAM |app_link| in the DE to convert SAM to sorted BAM files.
+
 ----
 
 **Fix or improve this documentation**
@@ -114,3 +118,7 @@ Search for an answer:
 .. |chiqcdoc| raw:: html
 
     <a href="https://bioconductor.org/packages/release/bioc/vignettes/ChIPQC/inst/doc/ChIPQC.pdf" target="_blank">here</a>
+
+.. |app_link| raw:: html
+
+    <a href="https://de.cyverse.org/de/?type=apps&app-id=b072aba4-3f59-11e8-8ce3-008cfa5ae621&system-id=de" target="_blank">App</a>
