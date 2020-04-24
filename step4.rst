@@ -9,7 +9,7 @@
 **Postprocessing- ChIP quality assessment**
 --------------------------------------------
 
-The quality of a ChIP experiment largely depends on the specificity of the antibody and the degree of enrichment achieved in the affinity precipitation step. In this section, we will use ChIPQC R package to calculate cross-correlation and FrIP score to assess quality of your ChIP. FRiP stands for Fraction of Reads in Peaks. As per ENCODE guidelines, FRiP% values around 5% or higher generally reflect successful enrichment (Landt et al, 2012).
+The quality of a ChIP experiment largely depends on the specificity of the antibody and the degree of enrichment achieved in the affinity precipitation step. In this section, we will use ChIPQC R package to calculate cross-correlation and FrIP score to assess quality of our ChIP data. FRiP stands for Fraction of Reads in Peaks. As per ENCODE guidelines, FRiP% values around 5% or higher generally reflect successful enrichment (Landt et al., 2012).
 
 ----
 
@@ -20,52 +20,46 @@ The quality of a ChIP experiment largely depends on the specificity of the antib
 
     * - Input
       - Description
-      - Example
-    * -
-      -
-      -
-    * - 
-      - 
-      -
+      - Location
+    * - alignment file
+      - alignment file in bam format
+      - iplantcollaborative > example_data > chipseq_webinar -> bowtie_output
+    * - identified peaks
+      - MACS2 output
+      - iplantcollaborative > example_data > chipseq_webinar -> macs2_output
 
 **Run Rstudio-chipqc app in CyVerse DE**
 
 
-1.
+1. CLick on "Apps" tab in the Discovery Enviornment and search for "rstudio-chipqc".
 
-2.
+2. Click on the app icon.
 
-3.
+|chipqc_app_icon|_
 
+3. Change the name of the analysis and output folder as needed or leave for defaults.
 
+4. Under "Input" provide the path for the folder for your input files. This will make your input dataset available in rstudio workspace.
 
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
+5. Under "Resource Requirements" request resources as needed or leave for defaults 
 
-**Output/Results**
+6. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running. Click on 'Access your analysis here' link.
 
-.. list-table::
-    :header-rows: 1
+7. Once the analysis is launched, provide username (rstudio) and password (rstudio1) for rstudio. Analysis may take few minutes to launch, depends on the size of your input data.
 
-    * - Output
-      - Description
-      - Example
-    * -
-      -
-      -
+8. Use the following script to calculate FRiP percentage and cross-correlation for one sample using ChIPQCsample function. Check ChIPQC package documentation |chiqcdoc| for more details.
 
+.. code::
 
-----
+  library(ChIPQC)
+  exampleExp <- ChIPQCsample(bamFiles,peaks=mypeaks)
 
-**Description of output and results**
+  mypeaks <- read.delim("ecoli_peaks.narrowPeak", header=F)
 
+  QCmetrics(exampleExp)
+  plotFrip(exampleExp)
+  frip(exampleExp)
+  plotCC(exampleExp)
 
 ----
 
@@ -111,3 +105,12 @@ Search for an answer:
 .. |Github Repo Link|  raw:: html
 
    <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+
+.. |bowtie1_app_icon| image:: ./img/bowtie1.png
+    :width: 300
+    :height: 150
+.. _bowtie1_app_icon: http://learning.cyverse.org/ <a href="https://de.cyverse.org/de/" target="_blank">bowtie1_app_icon</a>
+
+.. |chiqcdoc| raw:: html
+
+    <a href="https://bioconductor.org/packages/release/bioc/vignettes/ChIPQC/inst/doc/ChIPQC.pdf" target="_blank">here</a>
