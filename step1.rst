@@ -64,7 +64,7 @@ Preprocessing of ChIP-seq data is similar to that of any other sequencing data a
 
 **Description of output and results**
 
-Click on the html report files and check if your sequencing data has any red flags that you should be aware of. There are few red flags in the report. You will notice that "Per base sequence quality" decrease towards the end of the reads which is usual with illumina sequencing. Other useful metrices that should be checked for ChIP-seq data are: sequence duplication levels and over-represented sequences. Check another CyVerse tutorial on how to evaluate high-throughput sequencing reads with FastQC |fastqc_tutorial|
+Click on the html report files and check if your sequencing data has any red flags that you should be aware of. There are few red flags in the report. You will notice that "Per base sequence quality" decrease towards the end of the reads which is usual with illumina sequencing. Other useful metrices that should be checked for ChIP-seq data are: sequence duplication levels and over-represented sequences. Check another CyVerse tutorial on how to |fastqc_tutorial|
 
 As this report does not present any major concerns regarding the quality of this dataset, we will proceed for the next step ,i.e, reads alignment. However, for your own data, it is a good pratice to rerun fastqc after quality filtering your reads: remove adapter sequences and low-quality bases (Phred quality score< 20) and discard any short reads after trimming (<20bp reads). Check |trim_app| in CyVerse DE which can be used to trim and crop Illumina (FASTQ) data as well as to remove adapters.
 
