@@ -135,4 +135,4 @@ Search for an answer:
 
 .. |fastqc_tutorial| raw:: html
 
-    <a href="https://cyverse-fastqc-quickstart.readthedocs-hosted.com/en/latest/" target="_blank">Here</a>
+    <a href="https://cyverse-fastqc-quickstart.readthedocs-hosted.com/en/latest/" target="_blank">evaluate high-throughput sequencing reads with FastQC</a>
