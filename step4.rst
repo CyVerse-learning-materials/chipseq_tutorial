@@ -53,6 +53,7 @@ The quality of a ChIP experiment largely depends on the specificity of the antib
 
   library(ChIPQC)
   
+  bamFiles <- 'bowtie_chip_sorted.bam'
   mypeaks <- read.delim("ecoli_peaks.narrowPeak", header=F)
   exampleExp <- ChIPQCsample(bamFiles,peaks=mypeaks)
 
