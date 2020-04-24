@@ -113,7 +113,7 @@ Search for an answer:
 .. |chipqc_icon| image:: ./img/chipqc.png
     :width: 300
     :height: 150
-.. _bowtie1_app_icon: http://learning.cyverse.org/ <a href="https://de.cyverse.org/de/" target="_blank">chipqc_icon</a>
+.. _chipqc_icon: http://learning.cyverse.org/ <a href="https://de.cyverse.org/de/" target="_blank">chipqc_icon</a>
 
 .. |chiqcdoc| raw:: html
 
