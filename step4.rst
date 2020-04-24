@@ -35,7 +35,7 @@ The quality of a ChIP experiment largely depends on the specificity of the antib
 
 2. Click on the app icon.
 
-|chipqc_app_icon|_
+|chipqc_icon|_
 
 3. Change the name of the analysis and output folder as needed or leave for defaults.
 
@@ -110,10 +110,10 @@ Search for an answer:
 
    <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
 
-.. |bowtie1_app_icon| image:: ./img/bowtie1.png
+.. |chipqc_icon| image:: ./img/chipqc.png
     :width: 300
     :height: 150
-.. _bowtie1_app_icon: http://learning.cyverse.org/ <a href="https://de.cyverse.org/de/" target="_blank">bowtie1_app_icon</a>
+.. _bowtie1_app_icon: http://learning.cyverse.org/ <a href="https://de.cyverse.org/de/" target="_blank">chipqc_icon</a>
 
 .. |chiqcdoc| raw:: html
 
