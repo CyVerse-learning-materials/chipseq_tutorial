@@ -160,7 +160,8 @@ Search for an answer:
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`__
-[Back to top]
+[Back to top|_
+<a href="#top">Back to top</a>
 
 .. Comment: Place Images Below This Line
    use :width: to give a desired width for your image
