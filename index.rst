@@ -160,7 +160,7 @@ Search for an answer:
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`__
-
+<a href="#top">Back to top</a>
 
 .. Comment: Place Images Below This Line
    use :width: to give a desired width for your image
@@ -230,4 +230,4 @@ Search for an answer:
 
    <a href="https://wiki.cyverse.org/wiki/display/DEapps/FastQC" target="blank">Original App Documentation</a>
    
- <a href="#top">Back to top</a>
+
