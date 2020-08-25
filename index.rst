@@ -229,3 +229,5 @@ Search for an answer:
 .. |Original App Documentation3|  raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/display/DEapps/FastQC" target="blank">Original App Documentation</a>
+   
+ <a href="#top">Back to top</a>
