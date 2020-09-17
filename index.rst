@@ -168,7 +168,6 @@ Input and example data
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`__
 
-
 .. Comment: Place Images Below This Line
    use :width: to give a desired width for your image
    use :height: to give a desired height for your image
@@ -236,3 +235,5 @@ Input and example data
 .. |Original App Documentation3|  raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/display/DEapps/FastQC" target="blank">Original App Documentation</a>
+   
+
