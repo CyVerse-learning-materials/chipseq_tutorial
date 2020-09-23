@@ -86,7 +86,7 @@
 
 .. |SciApps Guide| raw:: html
 
-   <a href="https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/index.html" target="blank">SciApps Guide</a>
+   <a href="h/Users/reetututeja/Documents/tutorials/chipseq_tutorial/cyverse_rst_defined_substitutions.txtttps://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/index.html" target="blank">SciApps Guide</a>
 
 .. |Ask CyVerse| raw:: html
 
@@ -105,7 +105,7 @@
 
 .. |CyVerse_logo| image:: ./img/cyverse_learning.png
     :width: 500
-    
+    :height: 100
 .. _CyVerse_logo: http://learning.cyverse.org/
 .. |Home_Icon| image:: ./img/homeicon.png
     :width: 25

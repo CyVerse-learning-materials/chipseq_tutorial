@@ -36,6 +36,22 @@ Step-by-step Tutorial:
 
 ----
 
+Manual Maintainer(s)
+------------------------
+
+Who to contact if this manual needs fixing. You can also email
+`Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+.. list-table::
+    :header-rows: 1
+
+    * - Maintainer
+      - Institution
+      - Contact
+    * - Reetu Tuteja
+      - CyVerse / UA
+      - reetututeja@cyverse.org
+
 .. Note::
 
   Acknowledgments: Thanks to VIB and Harvard Chan Bioinformatics training for making wonderful teaching material available for ChIP-seq.
